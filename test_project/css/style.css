@@ -1,0 +1,12 @@
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+.conteiner>img {
+    max-width: 250px;
+}

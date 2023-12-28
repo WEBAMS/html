@@ -1,0 +1,23 @@
+div {
+    background-color: bisque;
+}
+
+.main {
+    background-color: bisque;
+}
+
+#sel {
+    background-color: blueviolet;
+}
+
+#sel.main {
+    background-color: aqua;
+}
+
+.two {
+    font-size: 35px;
+}
+
+.main p {
+    text-align: center;
+}
