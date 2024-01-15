@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat (1);
+    background-color: rgb(36, 36, 223);
 }
 
 .left-bar {
@@ -16,22 +17,45 @@
     grid-column: 11/13;
 }
 
-/* @media (max-width: 800px) {
+.left-bar p,
+.right-bar p {
+    margin: 1em;
+    padding: 1em;
+    border-style: solid;
+    border-width: 0.5px;
+    color: aquamarine;
+    border-color: aquamarine;
+}
+
+@media (max-width: 800px) {
     .conteiner {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat (5);
+        grid-template-rows: repeat (3);
+    }
+
+    .left-bar {
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+    
+    .conteiner {
+        grid-column: 1/13;
+        grid-row: 2/3;
+    }
+    
+    .right-bar {
+        grid-column: 1/13;
+        grid-row: 3/4;
     }
 
 }
 
 @media (max-width: 600px) {
-    .conteiner {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat (9);
+    .main-conteiner {
+        grid-template-rows: repeat (3);
     }
 
     .card {
         margin-inline: 0;
     }
 
-} */
+}
